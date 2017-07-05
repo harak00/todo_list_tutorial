@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0194310D1F0D078A00237866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194310C1F0D078A00237866 /* AppDelegate.swift */; };
+		0194310F1F0D078A00237866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194310E1F0D078A00237866 /* ViewController.swift */; };
+		019431121F0D078A00237866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019431101F0D078A00237866 /* Main.storyboard */; };
+		019431151F0D078A00237866 /* halil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 019431131F0D078A00237866 /* halil.xcdatamodeld */; };
+		019431171F0D078A00237866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019431161F0D078A00237866 /* Assets.xcassets */; };
+		0194311A1F0D078A00237866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019431181F0D078A00237866 /* LaunchScreen.storyboard */; };
+		019431251F0D078A00237866 /* halilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019431241F0D078A00237866 /* halilTests.swift */; };
+		019431301F0D078A00237866 /* halilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194312F1F0D078A00237866 /* halilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		019431211F0D078A00237866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019431011F0D078A00237866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 019431081F0D078A00237866;
+			remoteInfo = halil;
+		};
+		0194312C1F0D078A00237866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019431011F0D078A00237866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 019431081F0D078A00237866;
+			remoteInfo = halil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019431091F0D078A00237866 /* halil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = halil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0194310C1F0D078A00237866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0194310E1F0D078A00237866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019431111F0D078A00237866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019431141F0D078A00237866 /* halil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = halil.xcdatamodel; sourceTree = "<group>"; };
+		019431161F0D078A00237866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		019431191F0D078A00237866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0194311B1F0D078A00237866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019431201F0D078A00237866 /* halilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = halilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019431241F0D078A00237866 /* halilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = halilTests.swift; sourceTree = "<group>"; };
+		019431261F0D078A00237866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0194312B1F0D078A00237866 /* halilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = halilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0194312F1F0D078A00237866 /* halilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = halilUITests.swift; sourceTree = "<group>"; };
+		019431311F0D078A00237866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019431061F0D078A00237866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194311D1F0D078A00237866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019431281F0D078A00237866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019431001F0D078A00237866 = {
+			isa = PBXGroup;
+			children = (
+				0194310B1F0D078A00237866 /* halil */,
+				019431231F0D078A00237866 /* halilTests */,
+				0194312E1F0D078A00237866 /* halilUITests */,
+				0194310A1F0D078A00237866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0194310A1F0D078A00237866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019431091F0D078A00237866 /* halil.app */,
+				019431201F0D078A00237866 /* halilTests.xctest */,
+				0194312B1F0D078A00237866 /* halilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0194310B1F0D078A00237866 /* halil */ = {
+			isa = PBXGroup;
+			children = (
+				0194310C1F0D078A00237866 /* AppDelegate.swift */,
+				0194310E1F0D078A00237866 /* ViewController.swift */,
+				019431101F0D078A00237866 /* Main.storyboard */,
+				019431161F0D078A00237866 /* Assets.xcassets */,
+				019431181F0D078A00237866 /* LaunchScreen.storyboard */,
+				0194311B1F0D078A00237866 /* Info.plist */,
+				019431131F0D078A00237866 /* halil.xcdatamodeld */,
+			);
+			path = halil;
+			sourceTree = "<group>";
+		};
+		019431231F0D078A00237866 /* halilTests */ = {
+			isa = PBXGroup;
+			children = (
+				019431241F0D078A00237866 /* halilTests.swift */,
+				019431261F0D078A00237866 /* Info.plist */,
+			);
+			path = halilTests;
+			sourceTree = "<group>";
+		};
+		0194312E1F0D078A00237866 /* halilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0194312F1F0D078A00237866 /* halilUITests.swift */,
+				019431311F0D078A00237866 /* Info.plist */,
+			);
+			path = halilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019431081F0D078A00237866 /* halil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019431341F0D078A00237866 /* Build configuration list for PBXNativeTarget "halil" */;
+			buildPhases = (
+				019431051F0D078A00237866 /* Sources */,
+				019431061F0D078A00237866 /* Frameworks */,
+				019431071F0D078A00237866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = halil;
+			productName = halil;
+			productReference = 019431091F0D078A00237866 /* halil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0194311F1F0D078A00237866 /* halilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019431371F0D078A00237866 /* Build configuration list for PBXNativeTarget "halilTests" */;
+			buildPhases = (
+				0194311C1F0D078A00237866 /* Sources */,
+				0194311D1F0D078A00237866 /* Frameworks */,
+				0194311E1F0D078A00237866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019431221F0D078A00237866 /* PBXTargetDependency */,
+			);
+			name = halilTests;
+			productName = halilTests;
+			productReference = 019431201F0D078A00237866 /* halilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0194312A1F0D078A00237866 /* halilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0194313A1F0D078A00237866 /* Build configuration list for PBXNativeTarget "halilUITests" */;
+			buildPhases = (
+				019431271F0D078A00237866 /* Sources */,
+				019431281F0D078A00237866 /* Frameworks */,
+				019431291F0D078A00237866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0194312D1F0D078A00237866 /* PBXTargetDependency */,
+			);
+			name = halilUITests;
+			productName = halilUITests;
+			productReference = 0194312B1F0D078A00237866 /* halilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019431011F0D078A00237866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kokonoe;
+				TargetAttributes = {
+					019431081F0D078A00237866 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3G4595GUAV;
+						ProvisioningStyle = Automatic;
+					};
+					0194311F1F0D078A00237866 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3G4595GUAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 019431081F0D078A00237866;
+					};
+					0194312A1F0D078A00237866 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3G4595GUAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 019431081F0D078A00237866;
+					};
+				};
+			};
+			buildConfigurationList = 019431041F0D078A00237866 /* Build configuration list for PBXProject "halil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019431001F0D078A00237866;
+			productRefGroup = 0194310A1F0D078A00237866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019431081F0D078A00237866 /* halil */,
+				0194311F1F0D078A00237866 /* halilTests */,
+				0194312A1F0D078A00237866 /* halilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019431071F0D078A00237866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0194311A1F0D078A00237866 /* LaunchScreen.storyboard in Resources */,
+				019431171F0D078A00237866 /* Assets.xcassets in Resources */,
+				019431121F0D078A00237866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194311E1F0D078A00237866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019431291F0D078A00237866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019431051F0D078A00237866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0194310F1F0D078A00237866 /* ViewController.swift in Sources */,
+				019431151F0D078A00237866 /* halil.xcdatamodeld in Sources */,
+				0194310D1F0D078A00237866 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194311C1F0D078A00237866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019431251F0D078A00237866 /* halilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019431271F0D078A00237866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019431301F0D078A00237866 /* halilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		019431221F0D078A00237866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 019431081F0D078A00237866 /* halil */;
+			targetProxy = 019431211F0D078A00237866 /* PBXContainerItemProxy */;
+		};
+		0194312D1F0D078A00237866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 019431081F0D078A00237866 /* halil */;
+			targetProxy = 0194312C1F0D078A00237866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		019431101F0D078A00237866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019431111F0D078A00237866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019431181F0D078A00237866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019431191F0D078A00237866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019431321F0D078A00237866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019431331F0D078A00237866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019431351F0D078A00237866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3G4595GUAV;
+				INFOPLIST_FILE = halil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.halil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		019431361F0D078A00237866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3G4595GUAV;
+				INFOPLIST_FILE = halil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.halil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		019431381F0D078A00237866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3G4595GUAV;
+				INFOPLIST_FILE = halilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.halilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/halil.app/halil";
+			};
+			name = Debug;
+		};
+		019431391F0D078A00237866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3G4595GUAV;
+				INFOPLIST_FILE = halilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.halilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/halil.app/halil";
+			};
+			name = Release;
+		};
+		0194313B1F0D078A00237866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3G4595GUAV;
+				INFOPLIST_FILE = halilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.halilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = halil;
+			};
+			name = Debug;
+		};
+		0194313C1F0D078A00237866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3G4595GUAV;
+				INFOPLIST_FILE = halilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.halilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = halil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019431041F0D078A00237866 /* Build configuration list for PBXProject "halil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019431321F0D078A00237866 /* Debug */,
+				019431331F0D078A00237866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019431341F0D078A00237866 /* Build configuration list for PBXNativeTarget "halil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019431351F0D078A00237866 /* Debug */,
+				019431361F0D078A00237866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		019431371F0D078A00237866 /* Build configuration list for PBXNativeTarget "halilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019431381F0D078A00237866 /* Debug */,
+				019431391F0D078A00237866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0194313A1F0D078A00237866 /* Build configuration list for PBXNativeTarget "halilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0194313B1F0D078A00237866 /* Debug */,
+				0194313C1F0D078A00237866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		019431131F0D078A00237866 /* halil.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				019431141F0D078A00237866 /* halil.xcdatamodel */,
+			);
+			currentVersion = 019431141F0D078A00237866 /* halil.xcdatamodel */;
+			path = halil.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 019431011F0D078A00237866 /* Project object */;
+}
