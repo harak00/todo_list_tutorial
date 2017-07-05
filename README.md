@@ -1,2 +1,5 @@
 # todo_list_tutorial
-Todo list for swift 3
+A simple to-do list application written in Swift 3
+
+# Demo
+![Todo](https://github.com/harak00/todo_list_tutorial/demo.gif)
