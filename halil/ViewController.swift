@@ -9,9 +9,8 @@
 import UIKit
 
 class ViewController: UITableViewController {
-    
     @IBOutlet var tblView: UITableView!
-    
+
     // 초기 데이터
     var dataArray = ["시노", "테스트", "어플리케이션"]
     
@@ -71,8 +70,7 @@ class ViewController: UITableViewController {
     /**
     * Table cell 뿌려주기
     */
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-    {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = dataArray[indexPath.row]
         return cell
@@ -123,4 +121,3 @@ class ViewController: UITableViewController {
     
     
 }
-
